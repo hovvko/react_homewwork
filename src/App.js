@@ -1,7 +1,9 @@
+import Users from './components/Users/Users';
+
 function App() {
     return (
         <div>
-            Hello
+            <Users/>
         </div>
     );
 }
