@@ -1,7 +1,11 @@
+import {Counter} from "./components";
+
 function App() {
     return (
-        <div>
-            Hello
+        <div style={{display: 'flex'}}>
+            <Counter/>
+            <Counter/>
+            <Counter/>
         </div>
     );
 }
